@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/sunqunyan/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_2='/home/sunqunyan/vim_20151226'
+let g:netrw_dirhist_3='/home/sunqunyan/.vim'
+let g:netrw_dirhist_4='/home/sunqunyan/.vim/bundle/Vundle.vim/autoload/vundle'
