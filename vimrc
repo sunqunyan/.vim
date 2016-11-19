@@ -28,11 +28,10 @@
     autocmd FileType c,cpp,java,php,js,twig,python autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 " }
 
-" NerdCommenter {           
-"   let NERDSpaceDelims = 1
-" }    
-
 " Key Mappings {
+    " Change map leader, default is '\'
+    let mapleader = ','
+
     map <C-d> : exec "w" <CR>
     map <C-e> : exec "q" <CR>
     
@@ -114,6 +113,10 @@
     " Supertab {
         let g:SuperTabDefaultCompletionType = "context"
     " }        
+
+    " NerdCommenter {           
+       let NERDSpaceDelims = 1
+    " }    
 
 " }
 
