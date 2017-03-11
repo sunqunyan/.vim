@@ -83,7 +83,8 @@
     " }
 
     call vundle#end()               " required
-    " filetype plugin indent on     " required
+    filetype plugin indent on     " required
+    syntax on
 " }
 " { settings for bundles
 
