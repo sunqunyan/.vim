@@ -28,6 +28,10 @@
     autocmd FileType c,cpp,java,php,js,twig,python autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 " }
 
+" Action {
+    set backspace=indent,eol,start
+" }
+
 " Key Mappings {
     " Change map leader, default is '\'
     let mapleader = ','
