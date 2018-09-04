@@ -20,7 +20,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 ### Step4
 ```
-vim .vim/vimrc
+vim ~/.vimrc
 ```
 
 ### Step5
